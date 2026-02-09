@@ -154,7 +154,7 @@ export default function Hero() {
 
       {/* PDF Viewer */}
       <PDFViewer
-        pdfUrl="/document/hyzeal' Comms CV..pdf"
+        pdfUrl="/document/hyzeal.pdf"
         isOpen={isPdfOpen}
         onClose={() => setIsPdfOpen(false)}
       />

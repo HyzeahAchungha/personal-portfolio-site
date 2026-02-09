@@ -24,20 +24,20 @@ import SlidePanel from "./slide-panel";
 
 const initiatives = [
   {
-    title: "The Golden Scepter",
-    description: "Community initiative focused on Teen leadership development",
+    title: "BigWigPlug",
+    description: "Premium wigs crafted to enhance confidence, beauty, and self-expression.",
     details:
-      "As the founder of The Golden Scepter, I've created a comprehensive personal development program for Teenagers aged 13-19. The initiative combines theoretical learning with practical skill development projects, equipping participants with the skills, confidence, and network they need to become effective change-makers in their communities. ",
-    more: "More about the Golden Scepter:",
+      "The Golden Scepter Wigs is a beauty brand dedicated to providing high-quality, stylish wigs for women who value elegance and confidence. Our collections are carefully selected to suit different personalities, lifestyles, and occasions — from everyday wear to special moments. We believe every woman deserves to feel powerful, beautiful, and comfortable in her look. ",
+    more: "More about the BigWigPlug:",
     extraDetails:
-      "One of the most pressing challenges in my community is the escalating mental health crisis among teenagers. According to the World Health Organization, one in seven adolescents aged 10–19 experiences a mental health condition, yet these remain largely unrecognized and untreated, especially in low- and middle-income countries. In sub-Saharan Africa, where adolescents constitute about 23% of the population, the burden is particularly heavy due to limited access to mental health services and the stigma surrounding mental health issues. This is more pressing in my community, where teenagers are greatly affected by the aftermath of a socio-political crisis that has been persistent for close to 10 years now.",
+      "Finding reliable, high-quality wigs can be challenging, especially for women seeking durability, natural appearance, and affordability in one place. Many customers struggle with wigs that lack proper fit, shed easily, or fail to match their personal style. At BigWigPlug, we focus on quality control, customer satisfaction, and styles that celebrate individuality, ensuring our customers feel confident and satisfied with every purchase.",
     fight:
-      "To fight this, I've leveraged my skills as a communications professional to create and disseminate relatable, stigma-free content on mental health through social media platforms like TikTok and YouTube. Through my initiative, The Golden Scepter, I share stories, educational content, and coping strategies tailored for teenagers, aimed at fostering awareness and building wholeness among teenagers in my community.",
-    image: "/golde-scepter-bg-purple.JPG",
-    gridImage: "/pre-prof.jpg",
-    impact: "100+ young leaders",
-    category: "Leadership",
-    overlayColor: "from-amber-500/60 to-orange-500/60",
+      "To address these challenges, The BigWigPlug offers carefully curated wig collections, clear product descriptions, and customer-focused support. Through our online store and social platforms, we educate customers on wig care, styling tips, and proper maintenance, helping them get the best value and longevity from their wigs while confidently expressing their unique beauty.",
+    image: "/first.jpeg",
+    gridImage: "/first.jpeg",
+    projectUrl: "https://wig-store-8dg6.onrender.com", 
+    githubUrl: "https://github.com/HyzeahAchungha/Wig-Store-.git", 
+     overlayColor: "from-pink-500/60 to-purple-500/60",
     stats: [
       {
         icon: <Calendar className="h-5 w-5" />,
@@ -46,67 +46,54 @@ const initiatives = [
       },
       {
         icon: <Users className="h-5 w-5" />,
-        label: "Impacted",
+        label: "Customers",
         value: "200+",
       },
-      {
-        icon: <MapPin className="h-5 w-5" />,
-        label: "Communities",
-        value: "15+",
-      },
-      {
-        icon: <Award className="h-5 w-5" />,
-        label: "Projects",
-        value: "5+ completed",
-      },
+    
     ],
     animatedShapes: "quaternary",
   },
   {
-    title: "STEM Reach Project",
+    title: "Nini Nayah Cakes",
     description:
-      "Bringing STEM education to underserved communities across West Africa",
+      "Deliciously crafted cakes for every celebration",
     details:
-      "Through Data Girl Technologies, the STEM Reach Project aims to bridge the educational gap by providing hands-on STEM learning experiences to students in underserved communities. Through workshops, mentorship, and resource distribution, we've trained 200 women in rural areas, inspiring the next generation of female tech talents.",
-    image: "/Stem Reach.jpg",
-    gridImage: "/STEMReachImg.jpg",
-    impact: "200+ students reached",
-    category: "Education",
+      "Nini Nayah Cakes is a homegrown cake brand dedicated to creating beautiful, tasty, and affordable cakes for birthdays, weddings, anniversaries, and special moments. Every cake is freshly baked with quality ingredients and customized to match each client’s taste, theme, and occasion—because every celebration deserves something special.",
+   image: "/cake.jpeg",
+    gridImage: "/cake.jpeg",
+    projectUrl: "https://cake-business-1.onrender.com", 
+    githubUrl: "https://github.com/HyzeahAchungha/Cake-Business.git", 
     overlayColor: "from-purple-500/60 to-primary/60",
     stats: [
       {
         icon: <Calendar className="h-5 w-5" />,
         label: "Started",
-        value: "2024",
+        value: "2025",
       },
       {
         icon: <Users className="h-5 w-5" />,
-        label: "Students",
+        label: "Clients",
         value: "200+",
       },
       {
         icon: <MapPin className="h-5 w-5" />,
         label: "Locations",
-        value: "4 Rural communities",
+        value: "Bamenda",
       },
-      {
-        icon: <Award className="h-5 w-5" />,
-        label: "Recognition",
-        value: "Ban Ki-moon Award",
-      },
+      
     ],
     animatedShapes: "primary",
   },
   {
-    title: "WiSTEM Conference",
+    title: "Afrobeadie Collection",
     description:
-      "Annual gathering of women leaders and innovators in STEM fields",
+      "Exquisite handcrafted beaded bags that celebrate African artistry and elevate your style.",
     details:
-      "As PR Lead for the WiSTEM Conference, I coordinate media relations, content strategy, and stakeholder communications for this premier event that brings together over 500 women in STEM annually. The conference features keynote speeches, workshops, and networking opportunities designed to empower women in traditionally male-dominated fields.",
-    image: "/WiSTEM Pink.svg",
-    gridImage: "/conference.jpg",
-    impact: "500+ women empowered",
-    category: "Empowerment",
+      "At Afrobeadie, we design and create unique beaded bags that combine traditional craftsmanship with modern fashion. Each piece is carefully handcrafted to ensure quality, durability, and a distinctive look that stands out. Our collection caters to women and men who appreciate artistry, culture, and elegance in their accessories.",
+     image: "/afro.jpeg",
+    gridImage: "/afro.jpeg",
+    projectUrl: "https://afrobeadie-1.onrender.com", 
+    githubUrl: "https://github.com/HyzeahAchungha/AfroBeadie.git", 
     overlayColor: "from-pink-500/60 to-purple-500/60",
     stats: [
       {
@@ -133,36 +120,25 @@ const initiatives = [
     animatedShapes: "secondary",
   },
   {
-    title: "Mentorship Matters Africa",
-    description: "Connecting young professionals with established leaders",
-    details:
-      "Mentorship Matters Africa is a platform that pairs emerging talents with experienced professionals across various industries. The program includes monthly mentoring sessions, skill-building workshops, and career development resources. Since its inception, we've facilitated over 50 successful mentoring relationships.",
-    image: "/MMA.jpg",
-    gridImage: "/wistem-group.jpg",
-    impact: "200+ mentoring pairs",
-    category: "Development",
+    title: "Old Personal Portfolio",
+   image: "/old.jpeg",
+    gridImage: "/old.jpeg",
+    projectUrl: "https://achunghahyzeal.vercel.app", 
+    githubUrl: "https://github.com/HyzeahAchungha/Wig-Store-.git", 
     overlayColor: "from-blue-500/60 to-teal-500/60",
     stats: [
       {
         icon: <Calendar className="h-5 w-5" />,
-        label: "Started",
-        value: "2025 ",
+        label: "completed",
+        value: "2022 ",
       },
-      {
-        icon: <Users className="h-5 w-5" />,
-        label: "Mentorship",
-        value: "3-month cycle",
-      },
+     
       {
         icon: <Award className="h-5 w-5" />,
         label: "Success rate",
         value: "87%",
       },
-      {
-        icon: <MapPin className="h-5 w-5" />,
-        label: "Reach",
-        value: "Pan-African",
-      },
+     
     ],
     animatedShapes: "tertiary",
   },
@@ -183,7 +159,7 @@ export default function Projects() {
   };
 
   return (
-    <Section id="initiatives">
+    <Section id="projects">
       <SectionHeading
         title="projects"
         subtitle="Projects and programs making a difference in communities across Africa"
@@ -209,15 +185,9 @@ export default function Projects() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
-                  {/* Category badge */}
-                  <div className="absolute top-4 left-4 px-3 py-1 bg-primary/90 text-white text-sm font-medium rounded-full">
-                    {initiative.category}
-                  </div>
+                
 
-                  {/* Impact badge */}
-                  <div className="absolute bottom-4 right-4 px-3 py-1 bg-white/90 text-primary text-sm font-medium rounded-full">
-                    {initiative.impact}
-                  </div>
+            
                 </div>
               </div>
 
@@ -231,14 +201,45 @@ export default function Projects() {
               </CardHeader>
 
               <CardFooter className="pt-0">
-                <Button
+                {/* <Button
                   variant="ghost"
                   className="text-primary hover:text-primary hover:bg-primary/10 p-0 h-auto font-medium group/btn"
                   onClick={() => openInitiative(index)}
                 >
                   Learn More
                   <ChevronRight className="h-4 w-4 ml-1 transition-transform group-hover/btn:translate-x-1" />
-                </Button>
+                </Button> */}
+                <CardFooter className="pt-0 flex gap-3">
+  <Button
+    variant="ghost"
+    className="text-primary hover:text-primary hover:bg-primary/10 p-0 h-auto font-medium group/btn"
+    onClick={() => openInitiative(index)}
+  >
+    Learn More
+    <ChevronRight className="h-4 w-4 ml-1 transition-transform group-hover/btn:translate-x-1" />
+  </Button>
+  
+  {/* ADD THESE */}
+  {initiative.projectUrl && (
+    <Button
+      variant="outline"
+      size="sm"
+      onClick={() => window.open(initiative.projectUrl, '_blank')}
+    >
+      Visit Site
+    </Button>
+  )}
+  
+  {initiative.githubUrl && (
+    <Button
+      variant="outline"
+      size="sm"
+      onClick={() => window.open(initiative.githubUrl, '_blank')}
+    >
+      View Code
+    </Button>
+  )}
+</CardFooter>
               </CardFooter>
             </Card>
           </motion.div>

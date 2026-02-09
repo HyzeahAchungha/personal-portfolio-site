@@ -199,7 +199,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
                     ease: "easeOut",
                   }}
                 >
-                  HYZEAH
+                  HYZEAL
                 </motion.div>
 
                 {/* Space between names */}
