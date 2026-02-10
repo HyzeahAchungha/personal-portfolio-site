@@ -152,7 +152,7 @@ details:
       {
         icon: <Award className="h-5 w-5" />,
         label: "Success rate",
-        value: "87%",
+        value: "99%",
       },
       {
         icon: <MapPin className="h-5 w-5" />,
