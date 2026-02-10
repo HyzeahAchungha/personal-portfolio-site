@@ -84,26 +84,7 @@ const tools = [
       "Building AI-powered experiences, automation, and smart digital solutions.",
     color: "from-purple-500 to-pink-500",
   },
-  {
-    name: "Sales Funnel",
-    icon: <HiMiniFunnel className="h-8 w-8" />,
-    description:
-      "Designing customer journeys, landing pages, and conversion flows.",
-    color: "from-blue-500 to-green-500",
-  },
-  {
-    name: "Figma",
-    icon: <SiFigma className="h-8 w-8" />,
-    description:
-      "UI/UX design tool for crafting clean, modern, and user-centered interfaces.",
-    color: "from-yellow-500 to-orange-500",
-  },
-  {
-    name: "Maya ",
-    icon: <Gi3dStairs className="h-8 w-8" />,
-    description: "3D design, animation concepts, and creative visual elements.",
-    color: "from-gray-500 to-gray-700",
-  },
+  
 ];
 
 export default function Tools() {

@@ -24,40 +24,40 @@ import SlidePanel from "./slide-panel";
 
 const initiatives = [
   {
-    title: "The Golden Scepter",
-    description: "Community initiative focused on Teen leadership development",
-    details:
-      "As the founder of The Golden Scepter, I've created a comprehensive personal development program for Teenagers aged 13-19. The initiative combines theoretical learning with practical skill development projects, equipping participants with the skills, confidence, and network they need to become effective change-makers in their communities. ",
-    more: "More about the Golden Scepter:",
-    extraDetails:
-      "One of the most pressing challenges in my community is the escalating mental health crisis among teenagers. According to the World Health Organization, one in seven adolescents aged 10–19 experiences a mental health condition, yet these remain largely unrecognized and untreated, especially in low- and middle-income countries. In sub-Saharan Africa, where adolescents constitute about 23% of the population, the burden is particularly heavy due to limited access to mental health services and the stigma surrounding mental health issues. This is more pressing in my community, where teenagers are greatly affected by the aftermath of a socio-political crisis that has been persistent for close to 10 years now.",
-    fight:
-      "To fight this, I've leveraged my skills as a communications professional to create and disseminate relatable, stigma-free content on mental health through social media platforms like TikTok and YouTube. Through my initiative, The Golden Scepter, I share stories, educational content, and coping strategies tailored for teenagers, aimed at fostering awareness and building wholeness among teenagers in my community.",
-    image: "/golde-scepter-bg-purple.JPG",
-    gridImage: "/pre-prof.jpg",
-    impact: "100+ young leaders",
+    title: "Data Girl Technologies",
+description: "Tutoring and mentorship in full-stack web development",
+details:
+  "As a full-stack web development tutor at Data Girl Technologies, I train learners in building web applications from start to finish. My work focuses on guiding students through practical, hands-on learning, helping them understand both frontend and backend concepts while building real projects.",
+more: "More about my role at Data Girl Technologies:",
+extraDetails:
+  "Many learners, especially women transitioning into tech, face challenges such as limited access to structured learning, mentorship, and real-world practice opportunities. These gaps often make it difficult to gain confidence and clarity when learning full-stack development.",
+fight:
+  "To address this, I teach web development using a project-based approach, covering core technologies across the stack and encouraging problem-solving, collaboration, and continuous learning. My goal is to help learners build solid foundations, gain confidence in their skills, and become capable of developing and maintaining real-world web applications.",
+    image: "/data.jpeg",
+    gridImage: "/mamfe1.jpeg",
+    impact: "4000+ Students",
     category: "Leadership",
     overlayColor: "from-amber-500/60 to-orange-500/60",
     stats: [
       {
         icon: <Calendar className="h-5 w-5" />,
         label: "Founded",
-        value: "2022",
+        value: "2019",
       },
       {
         icon: <Users className="h-5 w-5" />,
         label: "Impacted",
-        value: "200+",
+        value: "4000+",
       },
       {
         icon: <MapPin className="h-5 w-5" />,
-        label: "Communities",
-        value: "15+",
+        label: "Cohorts",
+        value: "9",
       },
       {
         icon: <Award className="h-5 w-5" />,
         label: "Projects",
-        value: "5+ completed",
+        value: "15+ completed",
       },
     ],
     animatedShapes: "quaternary",
@@ -67,9 +67,9 @@ const initiatives = [
     description:
       "Bringing STEM education to underserved communities across West Africa",
     details:
-      "Through Data Girl Technologies, the STEM Reach Project aims to bridge the educational gap by providing hands-on STEM learning experiences to students in underserved communities. Through workshops, mentorship, and resource distribution, we've trained 200 women in rural areas, inspiring the next generation of female tech talents.",
+    " Through Data Girl Technologies, as a tutor with STEM Reach, I deliver basic computer and STEM education to learners across four different rural areas. My work focuses on introducing students—many of whom are using a computer for the first time—to essential digital skills in a simple, practical, and engaging way.",
     image: "/Stem Reach.jpg",
-    gridImage: "/STEMReachImg.jpg",
+    gridImage: "/tiko1.jpeg",
     impact: "200+ students reached",
     category: "Education",
     overlayColor: "from-purple-500/60 to-primary/60",
@@ -77,7 +77,7 @@ const initiatives = [
       {
         icon: <Calendar className="h-5 w-5" />,
         label: "Started",
-        value: "2024",
+        value: "2024-2025",
       },
       {
         icon: <Users className="h-5 w-5" />,
@@ -89,11 +89,7 @@ const initiatives = [
         label: "Locations",
         value: "4 Rural communities",
       },
-      {
-        icon: <Award className="h-5 w-5" />,
-        label: "Recognition",
-        value: "Ban Ki-moon Award",
-      },
+     
     ],
     animatedShapes: "primary",
   },
@@ -102,9 +98,9 @@ const initiatives = [
     description:
       "Annual gathering of women leaders and innovators in STEM fields",
     details:
-      "As PR Lead for the WiSTEM Conference, I coordinate media relations, content strategy, and stakeholder communications for this premier event that brings together over 500 women in STEM annually. The conference features keynote speeches, workshops, and networking opportunities designed to empower women in traditionally male-dominated fields.",
+      "During the WiSTEM Conference, I spearheaded the AI Speed Build session, where 15 teams of five participants had two hours to design and build solutions using AI.The session was highly practical and fast-paced—similar to vibe coding—with teams collaborating, experimenting, and shipping ideas in real time. The focus was on hands-on problem-solving and learning by doing rather than theory, which created a high-energy and engaging experience for participants",
     image: "/WiSTEM Pink.svg",
-    gridImage: "/conference.jpg",
+    gridImage: "/wistem.jpg",
     impact: "500+ women empowered",
     category: "Empowerment",
     overlayColor: "from-pink-500/60 to-purple-500/60",
@@ -133,24 +129,24 @@ const initiatives = [
     animatedShapes: "secondary",
   },
   {
-    title: "Mentorship Matters Africa",
-    description: "Connecting young professionals with established leaders",
-    details:
-      "Mentorship Matters Africa is a platform that pairs emerging talents with experienced professionals across various industries. The program includes monthly mentoring sessions, skill-building workshops, and career development resources. Since its inception, we've facilitated over 50 successful mentoring relationships.",
-    image: "/MMA.jpg",
-    gridImage: "/wistem-group.jpg",
-    impact: "200+ mentoring pairs",
+    title: "Empower Her",
+    ddescription: "Empowering rural women to build and grow sustainable businesses",
+details:
+  "Empower Her is a women-focused empowerment project designed to equip 50 women from rural communities with the knowledge, skills, and resources needed to start and grow successful businesses. The initiative provides practical entrepreneurship training, hands-on mentorship, and access to essential tools that support economic independence and long-term growth.",
+    image: "/empower.jpg",
+    gridImage: "/mamfe1.jpeg",
+    impact: "50+ Businesses",
     category: "Development",
     overlayColor: "from-blue-500/60 to-teal-500/60",
     stats: [
       {
         icon: <Calendar className="h-5 w-5" />,
         label: "Started",
-        value: "2025 ",
+        value: "2024 ",
       },
       {
         icon: <Users className="h-5 w-5" />,
-        label: "Mentorship",
+        label: "Businesses",
         value: "3-month cycle",
       },
       {
@@ -161,7 +157,7 @@ const initiatives = [
       {
         icon: <MapPin className="h-5 w-5" />,
         label: "Reach",
-        value: "Pan-African",
+        value: "Rural Communities",
       },
     ],
     animatedShapes: "tertiary",
