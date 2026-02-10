@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://precious-natang.vercel.app/pre-proff2.jpg", 
+        url: "https://res.cloudinary.com/ddvhiikmz/image/upload/v1770741003/WhatsApp_Image_2026-02-10_at_8.29.35_AM_lrrx66.jpg", 
         width: 1200,
         height: 630,
         alt: "Hyzeah Achungha Open Graph Image",
