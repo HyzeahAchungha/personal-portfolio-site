@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Hyzeah Achungha | Full Stack Web developer",
     description:
       "Versatile Web developer, Mobile Dev, Sales Funnel Builder and Automation",
-    url: "https://precious-natang.vercel.app",
+    url: "https://personal-portfolio-site-ipkd.onrender.com",
     siteName: "Hyzeah Achungha Portfolio",
     locale: "en_US",
     type: "website",
