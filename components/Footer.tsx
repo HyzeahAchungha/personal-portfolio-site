@@ -25,7 +25,7 @@ export default function Footer() {
             </a>
           
             <a
-              href="https://www.tiktok.com/@thegoldenscepter?_t=ZM-8wg1hruDmW0&_r=1"
+              href="https://www.tiktok.com/@hyzealachungha"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
