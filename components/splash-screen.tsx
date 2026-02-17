@@ -152,7 +152,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
     const timer = setTimeout(() => {
       setIsVisible(false)
       setTimeout(onComplete, 900) // Wait for exit animation
-    }, 9000)//8seconds
+    }, 4000)//8seconds
 
     return () => {
       window.removeEventListener("resize", handleResize)
@@ -180,7 +180,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
               transition={{ duration: 1, delay: 0.5 }}
             >
               <div className="mb-4 text-6xl font-bold tracking-tighter text-white sm:text-7xl lg:text-8xl relative overflow-hidden">
-                {/* PRECIOUS - Appears first with gentle fade and scale */}
+                {/* Hyzeal - Appears first with gentle fade and scale */}
                 <motion.div
                   className="bg-gradient-to-r from-white via-purple-200 to-primary bg-clip-text text-transparent inline-block"
                   initial={{
