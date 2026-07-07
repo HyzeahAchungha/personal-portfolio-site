@@ -120,7 +120,7 @@ export default function Hero() {
               >
                 <div className="">
                   <Image
-                    src="/hero.jpeg"
+                    src="/Hero.JPG"
                     alt="hyzeal' portrait"
                     width={800}
                     height={600}
